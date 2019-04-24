@@ -16,7 +16,7 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 public class EurekaCustomerApplication {
 
     public static void main(String[] args) {
-
+        System.out.println(111);
         SpringApplication.run(EurekaCustomerApplication.class, args);
     }
 
